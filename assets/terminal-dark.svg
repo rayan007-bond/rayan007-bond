@@ -18,43 +18,43 @@
   </defs>
 
   <g clip-path="url(#frame)">
-    <rect width="1200" height="300" fill="#0B1519"/>
+    <rect width="1200" height="300" fill="#0A0A0C"/>
 
     <!-- title bar -->
-    <rect width="1200" height="52" fill="#13242A"/>
-    <line x1="0" y1="52" x2="1200" y2="52" stroke="#24404A" stroke-width="1"/>
-    <circle cx="34" cy="26" r="5" fill="#E9B872" fill-opacity="0.85"/>
-    <circle cx="54" cy="26" r="5" fill="#7FD1C1" fill-opacity="0.6"/>
-    <circle cx="74" cy="26" r="5" fill="#24404A"/>
+    <rect width="1200" height="52" fill="#17171B"/>
+    <line x1="0" y1="52" x2="1200" y2="52" stroke="#2B2B31" stroke-width="1"/>
+    <circle cx="34" cy="26" r="5" fill="#4C8DFF" fill-opacity="0.9"/>
+    <circle cx="54" cy="26" r="5" fill="#8B8B94" fill-opacity="0.5"/>
+    <circle cx="74" cy="26" r="5" fill="#2B2B31"/>
     <text x="104" y="31" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
-          font-size="12" letter-spacing="1.4" fill="#7E9AA3">rayan@quetta : ~</text>
+          font-size="12" letter-spacing="1.4" fill="#8B8B94">rayan@quetta : ~</text>
 
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="0.4">
 
       <g clip-path="url(#t1)">
-        <text x="50" y="93" fill="#E9B872">$ <tspan fill="#E6EEF0">whoami</tspan></text>
+        <text x="50" y="93" fill="#4C8DFF">$ <tspan fill="#F2F2F4">whoami</tspan></text>
       </g>
       <g clip-path="url(#t2)">
-        <text x="50" y="121" fill="#7FD1C1">muhammad rayan — software engineering student, quetta</text>
+        <text x="50" y="121" fill="#F2F2F4">muhammad rayan — software engineering student, quetta</text>
       </g>
 
       <g clip-path="url(#t3)">
-        <text x="50" y="157" fill="#E9B872">$ <tspan fill="#E6EEF0">cat focus.txt</tspan></text>
+        <text x="50" y="157" fill="#4C8DFF">$ <tspan fill="#F2F2F4">cat focus.txt</tspan></text>
       </g>
       <g clip-path="url(#t4)">
-        <text x="50" y="185" fill="#7FD1C1">networks · data pipelines · automation that deletes busywork</text>
+        <text x="50" y="185" fill="#F2F2F4">networks · data pipelines · automation that deletes busywork</text>
       </g>
 
       <g clip-path="url(#t5)">
-        <text x="50" y="221" fill="#E9B872">$ <tspan fill="#E6EEF0">git log --oneline -1</tspan></text>
+        <text x="50" y="221" fill="#4C8DFF">$ <tspan fill="#F2F2F4">git log --oneline -1</tspan></text>
       </g>
       <g clip-path="url(#t6)">
-        <text x="50" y="249" fill="#7E9AA3">a3f0c21 <tspan fill="#7FD1C1">build things that move data around</tspan></text>
+        <text x="50" y="249" fill="#8B8B94">a3f0c21 <tspan fill="#F2F2F4">build things that move data around</tspan></text>
       </g>
 
     </g>
 
-    <rect x="462" y="236" width="9" height="16" fill="#E9B872">
+    <rect x="462" y="236" width="9" height="16" fill="#4C8DFF">
       <animate attributeName="opacity"
                values="0;0;1;0;1;0;1;0;1;0"
                keyTimes="0;0.828;0.850;0.875;0.900;0.925;0.950;0.965;0.978;1"

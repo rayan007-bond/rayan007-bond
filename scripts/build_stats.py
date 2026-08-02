@@ -16,15 +16,15 @@ SERIF = "Georgia, 'Times New Roman', serif"
 THEMES = {
     "dark": {
         "out": "assets/stats-dark.svg",
-        "bg": "#0B1519", "panel": "#13242A", "rule": "#24404A",
-        "sand": "#E9B872", "mint": "#7FD1C1", "ink": "#E6EEF0", "muted": "#7E9AA3",
-        "ramp": ["#E9B872", "#D9B489", "#B9BC9C", "#98C4AE", "#7FD1C1", "#4E8F86"],
+        "bg": "#0A0A0C", "panel": "#17171B", "rule": "#2B2B31",
+        "sand": "#4C8DFF", "mint": "#4C8DFF", "ink": "#F2F2F4", "muted": "#8B8B94",
+        "ramp": ["#4C8DFF", "#6C93E0", "#8A93C4", "#8B8B94", "#6E6E76", "#4A4A50"],
     },
     "light": {
         "out": "assets/stats.svg",
-        "bg": "#FBFAF6", "panel": "#F1ECE1", "rule": "#D9CFC0",
-        "sand": "#A8672A", "mint": "#1F8B78", "ink": "#1B2621", "muted": "#6E7C74",
-        "ramp": ["#A8672A", "#8C6B3F", "#6E7C74", "#4E8577", "#1F8B78", "#146357"],
+        "bg": "#FAFAFA", "panel": "#EFEFF1", "rule": "#D8D8DC",
+        "sand": "#2F6FE0", "mint": "#2F6FE0", "ink": "#17171B", "muted": "#6B6B73",
+        "ramp": ["#2F6FE0", "#4C74C9", "#6B76AF", "#6B6B73", "#54545B", "#3A3A40"],
     },
 }
 

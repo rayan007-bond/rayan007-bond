@@ -6,12 +6,12 @@
     </clipPath>
 
     <radialGradient id="glowl" cx="72%" cy="45%" r="55%">
-      <stop offset="0%"   stop-color="#1F8B78" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#1F8B78" stop-opacity="0"/>
+      <stop offset="0%"   stop-color="#2F6FE0" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#2F6FE0" stop-opacity="0"/>
     </radialGradient>
 
     <pattern id="dotsl" width="26" height="26" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#D9CFC0" fill-opacity="0.75"/>
+      <circle cx="1" cy="1" r="1" fill="#D8D8DC" fill-opacity="0.75"/>
     </pattern>
 
     <path id="syncPathl" d="M818,150 Q905,118 984,176"/>
@@ -19,22 +19,14 @@
 
   <g clip-path="url(#cardl)">
 
-    <rect width="1200" height="340" fill="#FBFAF6"/>
+    <rect width="1200" height="340" fill="#FAFAFA"/>
     <rect x="560" y="40" width="640" height="260" fill="url(#dotsl)"/>
     <rect width="1200" height="340" fill="url(#glowl)"/>
-
-    <!-- instrument frame -->
-    <g stroke="#D9CFC0" stroke-width="1.5" fill="none">
-      <path d="M28,54 L28,28 L54,28"/>
-      <path d="M1146,28 L1172,28 L1172,54"/>
-      <path d="M28,286 L28,312 L54,312"/>
-      <path d="M1146,312 L1172,312 L1172,286"/>
-    </g>
 
     <!-- ================= laptop + mobile ================= -->
 
     <!-- sync packet travelling between the two screens -->
-    <circle r="3" fill="#1F8B78">
+    <circle r="3" fill="#2F6FE0">
       <animateMotion dur="2.6s" repeatCount="indefinite">
         <mpath href="#syncPathl" xlink:href="#syncPathl"/>
       </animateMotion>
@@ -42,29 +34,29 @@
 
     <!-- laptop -->
     <g>
-      <path d="M665,272 L955,272 L978,298 L642,298 Z" fill="#F1ECE1" stroke="#D9CFC0" stroke-width="1.5"/>
-      <rect x="790" y="286" width="50" height="6" rx="3" fill="#D9CFC0"/>
+      <path d="M665,272 L955,272 L978,298 L642,298 Z" fill="#EFEFF1" stroke="#D8D8DC" stroke-width="1.5"/>
+      <rect x="790" y="286" width="50" height="6" rx="3" fill="#D8D8DC"/>
 
-      <rect x="680" y="90" width="260" height="182" rx="10" fill="#F1ECE1" stroke="#A8672A" stroke-width="2"/>
-      <rect x="688" y="98" width="244" height="166" rx="4" fill="#FBFAF6"/>
+      <rect x="680" y="90" width="260" height="182" rx="10" fill="#EFEFF1" stroke="#2F6FE0" stroke-width="2"/>
+      <rect x="688" y="98" width="244" height="166" rx="4" fill="#FAFAFA"/>
 
-      <circle cx="810" cy="104" r="2" fill="none" stroke="#D9CFC0" stroke-width="1"/>
+      <circle cx="810" cy="104" r="2" fill="none" stroke="#D8D8DC" stroke-width="1"/>
 
       <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5">
-        <rect x="702" y="118" width="46" height="6" rx="1.5" fill="#A8672A" opacity="0">
+        <rect x="702" y="118" width="46" height="6" rx="1.5" fill="#2F6FE0" opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.5s" fill="freeze"/></rect>
-        <rect x="702" y="140" width="168" height="6" rx="1.5" fill="#1F8B78" opacity="0">
+        <rect x="702" y="140" width="168" height="6" rx="1.5" fill="#6B6B73" opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.65s" fill="freeze"/></rect>
-        <rect x="702" y="162" width="38" height="6" rx="1.5" fill="#A8672A" opacity="0">
+        <rect x="702" y="162" width="38" height="6" rx="1.5" fill="#2F6FE0" opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.8s" fill="freeze"/></rect>
-        <rect x="702" y="184" width="196" height="6" rx="1.5" fill="#1F8B78" opacity="0">
+        <rect x="702" y="184" width="196" height="6" rx="1.5" fill="#6B6B73" opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.95s" fill="freeze"/></rect>
-        <rect x="702" y="206" width="62" height="6" rx="1.5" fill="#A8672A" opacity="0">
+        <rect x="702" y="206" width="62" height="6" rx="1.5" fill="#2F6FE0" opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.1s" fill="freeze"/></rect>
-        <rect x="702" y="228" width="140" height="6" rx="1.5" fill="#1F8B78" opacity="0">
+        <rect x="702" y="228" width="140" height="6" rx="1.5" fill="#6B6B73" opacity="0">
           <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.25s" fill="freeze"/></rect>
 
-        <rect x="850" y="228" width="8" height="7" fill="#A8672A" opacity="0">
+        <rect x="850" y="228" width="8" height="7" fill="#2F6FE0" opacity="0">
           <animate attributeName="opacity" values="0;0;1;0;1;0;1;0" dur="1.2s" begin="1.4s" repeatCount="indefinite"/>
         </rect>
       </g>
@@ -72,13 +64,13 @@
 
     <!-- phone -->
     <g>
-      <rect x="985" y="112" width="98" height="188" rx="18" fill="#F1ECE1" stroke="#A8672A" stroke-width="2"/>
-      <rect x="993" y="124" width="82" height="154" rx="8" fill="#FBFAF6"/>
-      <rect x="1022" y="118" width="18" height="3" rx="1.5" fill="#D9CFC0"/>
-      <rect x="1024" y="288" width="16" height="3" rx="1.5" fill="#D9CFC0"/>
+      <rect x="985" y="112" width="98" height="188" rx="18" fill="#EFEFF1" stroke="#2F6FE0" stroke-width="2"/>
+      <rect x="993" y="124" width="82" height="154" rx="8" fill="#FAFAFA"/>
+      <rect x="1022" y="118" width="18" height="3" rx="1.5" fill="#D8D8DC"/>
+      <rect x="1024" y="288" width="16" height="3" rx="1.5" fill="#D8D8DC"/>
 
       <!-- signal bars -->
-      <g fill="#1F8B78">
+      <g fill="#2F6FE0">
         <rect x="1052" y="136" width="3" height="5">
           <animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" begin="0.2s" repeatCount="indefinite"/></rect>
         <rect x="1058" y="132" width="3" height="9">
@@ -87,41 +79,41 @@
           <animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" begin="0.8s" repeatCount="indefinite"/></rect>
       </g>
 
-      <circle cx="1034" cy="150" r="3.5" fill="#A8672A">
+      <circle cx="1034" cy="150" r="3.5" fill="#2F6FE0">
         <animate attributeName="opacity" values="1;0.35;1" dur="1.8s" begin="1.6s" repeatCount="indefinite"/>
       </circle>
-      <rect x="1050" y="146" width="24" height="6" rx="1.5" fill="#1B2621" opacity="0">
+      <rect x="1050" y="146" width="24" height="6" rx="1.5" fill="#17171B" opacity="0">
         <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.6s" fill="freeze"/></rect>
 
-      <rect x="1008" y="176" width="52" height="5" rx="1.5" fill="#D9CFC0" opacity="0">
+      <rect x="1008" y="176" width="52" height="5" rx="1.5" fill="#D8D8DC" opacity="0">
         <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.75s" fill="freeze"/></rect>
-      <rect x="1008" y="192" width="38" height="5" rx="1.5" fill="#D9CFC0" opacity="0">
+      <rect x="1008" y="192" width="38" height="5" rx="1.5" fill="#D8D8DC" opacity="0">
         <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.85s" fill="freeze"/></rect>
-      <rect x="1008" y="208" width="46" height="5" rx="1.5" fill="#D9CFC0" opacity="0">
+      <rect x="1008" y="208" width="46" height="5" rx="1.5" fill="#D8D8DC" opacity="0">
         <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.95s" fill="freeze"/></rect>
     </g>
 
     <!-- ================= identity block ================= -->
     <text x="60" y="130"
           font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
-          font-size="11" letter-spacing="4.5" fill="#6E7C74">QUETTA · PAKISTAN</text>
+          font-size="11" letter-spacing="4.5" fill="#6B6B73">QUETTA · PAKISTAN</text>
 
     <text x="60" y="192" font-family="Georgia, 'Times New Roman', serif"
-          font-size="56" fill="#1B2621">Muhammad <tspan fill="#A8672A">Rayan</tspan></text>
+          font-size="56" fill="#17171B">Muhammad <tspan fill="#2F6FE0">Rayan</tspan></text>
 
-    <line x1="60" y1="216" x2="60" y2="216" stroke="#A8672A" stroke-width="2">
+    <line x1="60" y1="216" x2="60" y2="216" stroke="#2F6FE0" stroke-width="2">
       <animate attributeName="x2" from="60" to="300" dur="1.2s" begin="0.3s" fill="freeze"/>
     </line>
 
     <text x="60" y="252"
           font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
-          font-size="13.5" letter-spacing="1.2" fill="#6E7C74">software engineering student</text>
+          font-size="13.5" letter-spacing="1.2" fill="#6B6B73">software engineering student</text>
 
     <text x="60" y="276"
           font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
-          font-size="13.5" letter-spacing="1.2" fill="#6E7C74">networks · data · automation</text>
+          font-size="13.5" letter-spacing="1.2" fill="#6B6B73">networks · data · automation</text>
 
-    <rect x="336" y="264" width="9" height="15" fill="#A8672A">
+    <rect x="336" y="264" width="9" height="15" fill="#2F6FE0">
       <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/>
     </rect>
 

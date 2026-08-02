@@ -4,39 +4,39 @@
     <path id="rail04" d="M24,14 L536,14"/>
   </defs>
   <g clip-path="url(#c04)">
-    <rect width="560" height="190" fill="#FBFAF6"/>
-    <rect x="0" y="0" width="560" height="190" rx="10" ry="10" fill="none" stroke="#D9CFC0" stroke-width="2"/>
+    <rect width="560" height="190" fill="#FAFAFA"/>
+    <rect x="0" y="0" width="560" height="190" rx="10" ry="10" fill="none" stroke="#D8D8DC" stroke-width="2"/>
 
-    <rect x="0" y="0" width="4" height="0" fill="#A8672A">
+    <rect x="0" y="0" width="4" height="0" fill="#2F6FE0">
       <animate attributeName="height" from="0" to="190" dur="0.8s" begin="1.2s" fill="freeze"/>
     </rect>
 
-    <line x1="24" y1="14" x2="536" y2="14" stroke="#D9CFC0" stroke-width="1"/>
-    <circle r="2.5" fill="#1F8B78">
+    <line x1="24" y1="14" x2="536" y2="14" stroke="#D8D8DC" stroke-width="1"/>
+    <circle r="2.5" fill="#2F6FE0">
       <animateMotion dur="5s" begin="1.2s" repeatCount="indefinite">
         <mpath href="#rail04" xlink:href="#rail04"/>
       </animateMotion>
     </circle>
 
-    <text x="30" y="48" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="3" fill="#A8672A" opacity="0">04
+    <text x="30" y="48" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="3" fill="#2F6FE0" opacity="0">04
       <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.3499999999999999s" fill="freeze"/></text>
 
-    <text x="30" y="86" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#1B2621" opacity="0">Certificate Sender
+    <text x="30" y="86" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#17171B" opacity="0">Certificate Sender
       <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="1.5s" fill="freeze"/></text>
 
-    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#6E7C74" letter-spacing="0.3">
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#6B6B73" letter-spacing="0.3">
       <text x="30" y="114" opacity="0">Mails a personalised certificate to every name
         <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="1.65s" fill="freeze"/></text>
       <text x="30" y="132" opacity="0">in a CSV. Built for university events.
         <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="1.7999999999999998s" fill="freeze"/></text>
     </g>
 
-    <line x1="30" y1="152" x2="30" y2="152" stroke="#D9CFC0" stroke-width="1">
+    <line x1="30" y1="152" x2="30" y2="152" stroke="#D8D8DC" stroke-width="1">
       <animate attributeName="x2" from="30" to="530" dur="0.9s" begin="1.65s" fill="freeze"/></line>
 
-    <circle cx="35" cy="170" r="3" fill="#1F8B78">
+    <circle cx="35" cy="170" r="3" fill="#2F6FE0">
       <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" begin="1.2s" repeatCount="indefinite"/></circle>
-    <text x="48" y="174" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.4" fill="#1F8B78" opacity="0">Python · Streamlit
+    <text x="48" y="174" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.4" fill="#2F6FE0" opacity="0">Python · Streamlit
       <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="1.7999999999999998s" fill="freeze"/></text>
   </g>
 </svg>
