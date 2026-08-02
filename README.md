@@ -1,23 +1,16 @@
 <img src="./assets/header.svg" width="100%" alt="Muhammad Rayan — software engineering student in Quetta, Pakistan" />
 
-I build things that move data around: client–server systems, protocol simulators, and
-small tools that delete repetitive work. Most of what I write ends up being a network or
-a graph in disguise. Currently studying software engineering in Quetta, and writing up
-what I learn on [Medium](https://medium.com/@muhammadrayan182).
-
 <br>
+
+<img src="./assets/terminal.svg" width="100%" alt="whoami: Muhammad Rayan, software engineering student in Quetta. Focus: networks, data pipelines, automation." />
+
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 ### Stack
 
-|              |                                                        |
-| ------------ | ------------------------------------------------------ |
-| **Languages**| Java · Python · C · JavaScript · SQL                    |
-| **Web**      | HTML · CSS · Bootstrap                                  |
-| **Data**     | pandas · NumPy · Streamlit                              |
-| **Desktop**  | JavaFX · Java Swing                                     |
-| **Tooling**  | Git · IntelliJ IDEA · VS Code · MySQL · Linux           |
+<img src="./assets/stack.svg" width="100%" alt="Languages: Java, Python, C, JavaScript, SQL. Web: HTML, CSS, Bootstrap. Data: pandas, NumPy, Streamlit. Desktop: JavaFX, Java Swing, GraphStream. Tooling: Git, MySQL, Linux, IntelliJ IDEA, VS Code." />
 
-<br>
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 ### Selected work
 
@@ -30,12 +23,9 @@ what I learn on [Medium](https://medium.com/@muhammadrayan182).
 | [**simple-medical-ecommerce-store**](https://github.com/rayan007-bond/simple-medical-ecommerce-store) | Storefront for a small pharmacy: catalogue, product pages, cart | HTML · CSS |
 | [**Tic-Tac-Toe**](https://github.com/rayan007-bond/Tic-Tac-Toe) | Terminal game, written to get comfortable with C | C |
 
-<br>
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 ### Activity
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=rayan007-bond&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0B1519&title_color=E9B872&text_color=E6EEF0&icon_color=7FD1C1&ring_color=E9B872" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rayan007-bond&layout=compact&hide_border=true&langs_count=6&bg_color=0B1519&title_color=E9B872&text_color=E6EEF0" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rayan007-bond/rayan007-bond/output/github-snake-dark.svg" />
@@ -43,7 +33,7 @@ what I learn on [Medium](https://medium.com/@muhammadrayan182).
   <img width="100%" alt="A snake eating my contribution graph" src="https://raw.githubusercontent.com/rayan007-bond/rayan007-bond/output/github-snake.svg" />
 </picture>
 
-<br>
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 ### Elsewhere
 
