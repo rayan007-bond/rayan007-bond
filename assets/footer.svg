@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-label="Open to internships and collaboration — Quetta, Pakistan">
+  <defs>
+    <clipPath id="fb"><rect width="1200" height="150" rx="12" ry="12"/></clipPath>
+    <path id="fr1" d="M760,104 L860,52"/>
+    <path id="fr2" d="M860,52 L964,96"/>
+    <path id="fr3" d="M964,96 L1068,44"/>
+    <path id="fr4" d="M760,104 L964,96"/>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7FD1C1" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#7FD1C1" stop-opacity="0.09"/>
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#fb)">
+    <rect width="1200" height="150" fill="#0B1519"/>
+    <rect width="1200" height="150" fill="url(#fade)"/>
+
+    <g stroke="#7FD1C1" stroke-opacity="0.25" stroke-width="1.2" fill="none">
+      <use href="#fr1" xlink:href="#fr1"/><use href="#fr2" xlink:href="#fr2"/>
+      <use href="#fr3" xlink:href="#fr3"/><use href="#fr4" xlink:href="#fr4"/>
+    </g>
+    <g fill="#0B1519" stroke="#E9B872" stroke-width="2">
+      <circle cx="760" cy="104" r="5"/><circle cx="860" cy="52" r="5"/>
+      <circle cx="964" cy="96" r="5"/><circle cx="1068" cy="44" r="5"/>
+    </g>
+    <g fill="#7FD1C1">
+      <circle r="3"><animateMotion dur="3.2s" repeatCount="indefinite"><mpath href="#fr1" xlink:href="#fr1"/></animateMotion></circle>
+      <circle r="3"><animateMotion dur="2.6s" begin="0.7s" repeatCount="indefinite"><mpath href="#fr2" xlink:href="#fr2"/></animateMotion></circle>
+      <circle r="3" fill="#E9B872"><animateMotion dur="3.6s" begin="1.3s" repeatCount="indefinite"><mpath href="#fr3" xlink:href="#fr3"/></animateMotion></circle>
+      <circle r="3"><animateMotion dur="4.2s" begin="0.3s" repeatCount="indefinite"><mpath href="#fr4" xlink:href="#fr4"/></animateMotion></circle>
+    </g>
+
+    <text x="60" y="62" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#E6EEF0">Open to internships and side projects.</text>
+    <line x1="60" y1="82" x2="60" y2="82" stroke="#E9B872" stroke-width="2">
+      <animate attributeName="x2" from="60" to="240" dur="1s" begin="0.2s" fill="freeze"/></line>
+    <text x="60" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" letter-spacing="1.6" fill="#7E9AA3">quetta · pakistan &#183; usually replying within a day</text>
+  </g>
+</svg>

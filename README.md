@@ -14,18 +14,50 @@
 
 ### Selected work
 
-| Project | What it does | Built with |
-| ------- | ------------ | ---------- |
-| [**server-client-system-in-java**](https://github.com/rayan007-bond/server-client-system-in-java) | Multithreaded chat server with a Swing client — real-time messaging, file transfer, and remote commands over JSON sockets | Java |
-| [**Simulating-TCP-Congestion-Control**](https://github.com/rayan007-bond/Simulating-TCP-Congestion-Control-Streamlit-python-) | Interactive walkthrough of how TCP throttles itself under load | Python · Streamlit |
-| [**Prim's Routing Simulator**](https://github.com/rayan007-bond/Prim-s-Algorithm-Routing-Simulator-JavaFX-GraphStream-) | Builds and draws a minimum spanning tree across a live network graph | Java · JavaFX · GraphStream |
-| [**Certificate-Sender**](https://github.com/rayan007-bond/Certificate-Sender---Streamlit-Email-Automation) | Mails a certificate to every name in a CSV, with custom message support — built for university events | Python · Streamlit |
-| [**simple-medical-ecommerce-store**](https://github.com/rayan007-bond/simple-medical-ecommerce-store) | Storefront for a small pharmacy: catalogue, product pages, cart | HTML · CSS |
-| [**Tic-Tac-Toe**](https://github.com/rayan007-bond/Tic-Tac-Toe) | Terminal game, written to get comfortable with C | C |
+<table>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/rayan007-bond/server-client-system-in-java">
+        <img src="./assets/cards/01.svg" width="100%" alt="server-client-system-in-java — multithreaded chat server with a Swing client. Java." />
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/rayan007-bond/Simulating-TCP-Congestion-Control-Streamlit-python-">
+        <img src="./assets/cards/02.svg" width="100%" alt="TCP Congestion Control — interactive walkthrough of how TCP throttles itself. Python, Streamlit." />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/rayan007-bond/Prim-s-Algorithm-Routing-Simulator-JavaFX-GraphStream-">
+        <img src="./assets/cards/03.svg" width="100%" alt="Prim's Routing Simulator — minimum spanning tree across a live network graph. Java, JavaFX, GraphStream." />
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/rayan007-bond/Certificate-Sender---Streamlit-Email-Automation">
+        <img src="./assets/cards/04.svg" width="100%" alt="Certificate Sender — mails a personalised certificate to every name in a CSV. Python, Streamlit." />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/rayan007-bond/simple-medical-ecommerce-store">
+        <img src="./assets/cards/05.svg" width="100%" alt="Medical E-Commerce Store — pharmacy storefront with catalogue and cart. HTML, CSS, Bootstrap." />
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/rayan007-bond?tab=repositories">
+        <img src="./assets/cards/06.svg" width="100%" alt="Tic-Tac-Toe — terminal game written in C." />
+      </a>
+    </td>
+  </tr>
+</table>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-### Activity
+### Signal
+
+<img src="./assets/stats.svg" width="100%" alt="Live GitHub statistics: public repositories, stars, contributions and language distribution." />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rayan007-bond/rayan007-bond/output/github-snake-dark.svg" />
@@ -35,9 +67,13 @@
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
-### Elsewhere
+<img src="./assets/footer.svg" width="100%" alt="Open to internships and side projects. Quetta, Pakistan." />
+
+<div align="center">
 
 [LinkedIn](https://www.linkedin.com/in/muhammad-rayan-519197256) &nbsp;·&nbsp;
 [Medium](https://medium.com/@muhammadrayan182) &nbsp;·&nbsp;
 [Instagram](https://instagram.com/muhmmad_rayan171) &nbsp;·&nbsp;
 [Facebook](https://facebook.com/muhammad.rayan.10004)
+
+</div>
