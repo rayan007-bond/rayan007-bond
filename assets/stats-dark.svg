@@ -1,38 +1,38 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-label="GitHub statistics for rayan007-bond">
   <defs><clipPath id="p"><rect width="1200" height="260" rx="12" ry="12"/></clipPath></defs>
   <g clip-path="url(#p)">
-    <rect width="1200" height="260" fill="#0B1519"/>
-    <rect width="1200" height="52" fill="#13242A"/>
-    <line x1="0" y1="52" x2="1200" y2="52" stroke="#24404A" stroke-width="1"/>
-    <circle cx="34" cy="26" r="4" fill="#7FD1C1">
+    <rect width="1200" height="260" fill="#0A0A0C"/>
+    <rect width="1200" height="52" fill="#17171B"/>
+    <line x1="0" y1="52" x2="1200" y2="52" stroke="#2B2B31" stroke-width="1"/>
+    <circle cx="34" cy="26" r="4" fill="#4C8DFF">
       <animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/>
     </circle>
-    <text x="52" y="31" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2.6" fill="#E9B872">LIVE SIGNAL</text>
-    <text x="1140" y="31" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#7E9AA3">synced 02 Aug 2026</text>
+    <text x="52" y="31" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2.6" fill="#4C8DFF">LIVE SIGNAL</text>
+    <text x="1140" y="31" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8B8B94">synced 02 Aug 2026</text>
 
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.2s" fill="freeze"/>
-    <text x="60" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="#E6EEF0">24</text>
-    <text x="60" y="136" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="2.6" fill="#7E9AA3">PUBLIC REPOS</text>
+    <text x="60" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="#F2F2F4">24</text>
+    <text x="60" y="136" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="2.6" fill="#8B8B94">PUBLIC REPOS</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.35s" fill="freeze"/>
-    <text x="340" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="#E6EEF0">0</text>
-    <text x="340" y="136" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="2.6" fill="#7E9AA3">STARS EARNED</text>
+    <text x="340" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="#F2F2F4">0</text>
+    <text x="340" y="136" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="2.6" fill="#8B8B94">STARS EARNED</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.5s" fill="freeze"/>
-    <text x="620" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="#E6EEF0">143</text>
-    <text x="620" y="136" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="2.6" fill="#7E9AA3">CONTRIBUTIONS / YR</text>
+    <text x="620" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="#F2F2F4">143</text>
+    <text x="620" y="136" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="2.6" fill="#8B8B94">CONTRIBUTIONS / YR</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.65s" fill="freeze"/>
-    <text x="960" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="#E6EEF0">1</text>
-    <text x="960" y="136" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="2.6" fill="#7E9AA3">FOLLOWERS</text>
+    <text x="960" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="#F2F2F4">1</text>
+    <text x="960" y="136" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="2.6" fill="#8B8B94">FOLLOWERS</text>
   </g>
-    <text x="60" y="172" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="2.6" fill="#E9B872">LANGUAGE DISTRIBUTION</text>
-    <rect x="60" y="186" width="1080" height="10" rx="2" fill="#24404A" fill-opacity="0.5"/>
-    <rect x="60.0" y="186" width="0" height="10" rx="2" fill="#E9B872"><animate attributeName="width" from="0" to="315.6" dur="1.1s" begin="0.80s" fill="freeze"/></rect><rect x="375.6" y="186" width="0" height="10" rx="2" fill="#D9B489"><animate attributeName="width" from="0" to="220.5" dur="1.1s" begin="0.92s" fill="freeze"/></rect><rect x="596.1" y="186" width="0" height="10" rx="2" fill="#B9BC9C"><animate attributeName="width" from="0" to="215.0" dur="1.1s" begin="1.04s" fill="freeze"/></rect><rect x="811.1" y="186" width="0" height="10" rx="2" fill="#98C4AE"><animate attributeName="width" from="0" to="174.1" dur="1.1s" begin="1.16s" fill="freeze"/></rect><rect x="985.1" y="186" width="0" height="10" rx="2" fill="#7FD1C1"><animate attributeName="width" from="0" to="92.4" dur="1.1s" begin="1.28s" fill="freeze"/></rect><rect x="1077.5" y="186" width="0" height="10" rx="2" fill="#4E8F86"><animate attributeName="width" from="0" to="62.5" dur="1.1s" begin="1.40s" fill="freeze"/></rect>
-    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.20s" fill="freeze"/><circle cx="60" cy="228" r="4" fill="#E9B872"/><text x="74" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#7E9AA3">HTML 29%</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.30s" fill="freeze"/><circle cx="130" cy="228" r="4" fill="#D9B489"/><text x="144" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#7E9AA3">CSS 20%</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.40s" fill="freeze"/><circle cx="192" cy="228" r="4" fill="#B9BC9C"/><text x="206" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#7E9AA3">PHP 20%</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.50s" fill="freeze"/><circle cx="255" cy="228" r="4" fill="#98C4AE"/><text x="269" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#7E9AA3">TypeScript 16%</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.60s" fill="freeze"/><circle cx="370" cy="228" r="4" fill="#7FD1C1"/><text x="384" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#7E9AA3">JavaScript 9%</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.70s" fill="freeze"/><circle cx="485" cy="228" r="4" fill="#4E8F86"/><text x="499" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#7E9AA3">SCSS 6%</text></g>
+    <text x="60" y="172" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="2.6" fill="#4C8DFF">LANGUAGE DISTRIBUTION</text>
+    <rect x="60" y="186" width="1080" height="10" rx="2" fill="#2B2B31" fill-opacity="0.5"/>
+    <rect x="60.0" y="186" width="0" height="10" rx="2" fill="#4C8DFF"><animate attributeName="width" from="0" to="315.6" dur="1.1s" begin="0.80s" fill="freeze"/></rect><rect x="375.6" y="186" width="0" height="10" rx="2" fill="#6C93E0"><animate attributeName="width" from="0" to="220.5" dur="1.1s" begin="0.92s" fill="freeze"/></rect><rect x="596.1" y="186" width="0" height="10" rx="2" fill="#8A93C4"><animate attributeName="width" from="0" to="215.0" dur="1.1s" begin="1.04s" fill="freeze"/></rect><rect x="811.1" y="186" width="0" height="10" rx="2" fill="#8B8B94"><animate attributeName="width" from="0" to="174.1" dur="1.1s" begin="1.16s" fill="freeze"/></rect><rect x="985.1" y="186" width="0" height="10" rx="2" fill="#6E6E76"><animate attributeName="width" from="0" to="92.4" dur="1.1s" begin="1.28s" fill="freeze"/></rect><rect x="1077.5" y="186" width="0" height="10" rx="2" fill="#4A4A50"><animate attributeName="width" from="0" to="62.5" dur="1.1s" begin="1.40s" fill="freeze"/></rect>
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.20s" fill="freeze"/><circle cx="60" cy="228" r="4" fill="#4C8DFF"/><text x="74" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#8B8B94">HTML 29%</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.30s" fill="freeze"/><circle cx="130" cy="228" r="4" fill="#6C93E0"/><text x="144" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#8B8B94">CSS 20%</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.40s" fill="freeze"/><circle cx="192" cy="228" r="4" fill="#8A93C4"/><text x="206" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#8B8B94">PHP 20%</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.50s" fill="freeze"/><circle cx="255" cy="228" r="4" fill="#8B8B94"/><text x="269" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#8B8B94">TypeScript 16%</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.60s" fill="freeze"/><circle cx="370" cy="228" r="4" fill="#6E6E76"/><text x="384" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#8B8B94">JavaScript 9%</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.70s" fill="freeze"/><circle cx="485" cy="228" r="4" fill="#4A4A50"/><text x="499" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#8B8B94">SCSS 6%</text></g>
   </g>
 </svg>
