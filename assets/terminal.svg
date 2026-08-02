@@ -1,60 +1,60 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Terminal: whoami, focus, and current work">
 
   <defs>
-    <clipPath id="frame"><rect x="0" y="0" width="1200" height="300" rx="12" ry="12"/></clipPath>
+    <clipPath id="framel"><rect x="0" y="0" width="1200" height="300" rx="12" ry="12"/></clipPath>
 
-    <clipPath id="t1"><rect x="50" y="76" height="24" width="0">
+    <clipPath id="lt1"><rect x="50" y="76" height="24" width="0">
       <animate attributeName="width" values="0;0;110;110;0" keyTimes="0;0.021;0.114;0.98;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="t2"><rect x="50" y="104" height="24" width="0">
+    <clipPath id="lt2"><rect x="50" y="104" height="24" width="0">
       <animate attributeName="width" values="0;0;540;540;0" keyTimes="0;0.143;0.257;0.98;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="t3"><rect x="50" y="140" height="24" width="0">
+    <clipPath id="lt3"><rect x="50" y="140" height="24" width="0">
       <animate attributeName="width" values="0;0;180;180;0" keyTimes="0;0.300;0.400;0.98;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="t4"><rect x="50" y="168" height="24" width="0">
+    <clipPath id="lt4"><rect x="50" y="168" height="24" width="0">
       <animate attributeName="width" values="0;0;610;610;0" keyTimes="0;0.429;0.557;0.98;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="t5"><rect x="50" y="204" height="24" width="0">
+    <clipPath id="lt5"><rect x="50" y="204" height="24" width="0">
       <animate attributeName="width" values="0;0;250;250;0" keyTimes="0;0.593;0.686;0.98;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="t6"><rect x="50" y="232" height="24" width="0">
+    <clipPath id="lt6"><rect x="50" y="232" height="24" width="0">
       <animate attributeName="width" values="0;0;470;470;0" keyTimes="0;0.714;0.829;0.98;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
   </defs>
 
-  <g clip-path="url(#frame)">
-    <rect width="1200" height="300" fill="#0B1519"/>
+  <g clip-path="url(#framel)">
+    <rect width="1200" height="300" fill="#FBFAF6"/>
 
     <!-- title bar -->
-    <rect width="1200" height="52" fill="#13242A"/>
-    <line x1="0" y1="52" x2="1200" y2="52" stroke="#24404A" stroke-width="1"/>
-    <circle cx="34" cy="26" r="5" fill="#E9B872" fill-opacity="0.85"/>
-    <circle cx="54" cy="26" r="5" fill="#7FD1C1" fill-opacity="0.6"/>
-    <circle cx="74" cy="26" r="5" fill="#24404A"/>
+    <rect width="1200" height="52" fill="#F1ECE1"/>
+    <line x1="0" y1="52" x2="1200" y2="52" stroke="#D9CFC0" stroke-width="1"/>
+    <circle cx="34" cy="26" r="5" fill="#A8672A" fill-opacity="0.85"/>
+    <circle cx="54" cy="26" r="5" fill="#1F8B78" fill-opacity="0.6"/>
+    <circle cx="74" cy="26" r="5" fill="#D9CFC0"/>
     <text x="104" y="31" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
-          font-size="12" letter-spacing="1.4" fill="#7E9AA3">rayan@quetta : ~</text>
+          font-size="12" letter-spacing="1.4" fill="#6E7C74">rayan@quetta : ~</text>
 
     <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="0.4">
 
-      <g clip-path="url(#t1)">
-        <text x="50" y="93" fill="#E9B872">$ <tspan fill="#E6EEF0">whoami</tspan></text>
+      <g clip-path="url(#lt1)">
+        <text x="50" y="93" fill="#A8672A">$ <tspan fill="#1B2621">whoami</tspan></text>
       </g>
-      <g clip-path="url(#t2)">
-        <text x="50" y="121" fill="#7FD1C1">muhammad rayan — software engineering student, quetta</text>
-      </g>
-
-      <g clip-path="url(#t3)">
-        <text x="50" y="157" fill="#E9B872">$ <tspan fill="#E6EEF0">cat focus.txt</tspan></text>
-      </g>
-      <g clip-path="url(#t4)">
-        <text x="50" y="185" fill="#7FD1C1">networks · data pipelines · automation that deletes busywork</text>
+      <g clip-path="url(#lt2)">
+        <text x="50" y="121" fill="#1F8B78">muhammad rayan — software engineering student, quetta</text>
       </g>
 
-      <g clip-path="url(#t5)">
-        <text x="50" y="221" fill="#E9B872">$ <tspan fill="#E6EEF0">git log --oneline -1</tspan></text>
+      <g clip-path="url(#lt3)">
+        <text x="50" y="157" fill="#A8672A">$ <tspan fill="#1B2621">cat focus.txt</tspan></text>
       </g>
-      <g clip-path="url(#t6)">
-        <text x="50" y="249" fill="#7E9AA3">a3f0c21 <tspan fill="#7FD1C1">build things that move data around</tspan></text>
+      <g clip-path="url(#lt4)">
+        <text x="50" y="185" fill="#1F8B78">networks · data pipelines · automation that deletes busywork</text>
+      </g>
+
+      <g clip-path="url(#lt5)">
+        <text x="50" y="221" fill="#A8672A">$ <tspan fill="#1B2621">git log --oneline -1</tspan></text>
+      </g>
+      <g clip-path="url(#lt6)">
+        <text x="50" y="249" fill="#6E7C74">a3f0c21 <tspan fill="#1F8B78">build things that move data around</tspan></text>
       </g>
 
     </g>
 
-    <rect x="462" y="236" width="9" height="16" fill="#E9B872">
+    <rect x="462" y="236" width="9" height="16" fill="#A8672A">
       <animate attributeName="opacity"
                values="0;0;1;0;1;0;1;0;1;0"
                keyTimes="0;0.828;0.850;0.875;0.900;0.925;0.950;0.965;0.978;1"

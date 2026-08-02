@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate assets/stats.svg from live GitHub data, styled to match the profile."""
+"""Generate assets/stats.svg (light) and assets/stats-dark.svg from live GitHub data."""
 
 import json
 import os
@@ -9,15 +9,24 @@ from xml.sax.saxutils import escape
 
 LOGIN = os.environ.get("GH_LOGIN", "rayan007-bond")
 TOKEN = os.environ["GH_TOKEN"]
-OUT = "assets/stats.svg"
 
-BG, PANEL, RULE = "#0B1519", "#13242A", "#24404A"
-SAND, MINT, INK, MUTED = "#E9B872", "#7FD1C1", "#E6EEF0", "#7E9AA3"
 MONO = "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
 SERIF = "Georgia, 'Times New Roman', serif"
 
-# palette ramp for language segments, sand -> mint
-RAMP = ["#E9B872", "#D9B489", "#B9BC9C", "#98C4AE", "#7FD1C1", "#4E8F86"]
+THEMES = {
+    "dark": {
+        "out": "assets/stats-dark.svg",
+        "bg": "#0B1519", "panel": "#13242A", "rule": "#24404A",
+        "sand": "#E9B872", "mint": "#7FD1C1", "ink": "#E6EEF0", "muted": "#7E9AA3",
+        "ramp": ["#E9B872", "#D9B489", "#B9BC9C", "#98C4AE", "#7FD1C1", "#4E8F86"],
+    },
+    "light": {
+        "out": "assets/stats.svg",
+        "bg": "#FBFAF6", "panel": "#F1ECE1", "rule": "#D9CFC0",
+        "sand": "#A8672A", "mint": "#1F8B78", "ink": "#1B2621", "muted": "#6E7C74",
+        "ramp": ["#A8672A", "#8C6B3F", "#6E7C74", "#4E8577", "#1F8B78", "#146357"],
+    },
+}
 
 QUERY = """
 query($login:String!){
@@ -78,30 +87,34 @@ def summarise(user):
     }
 
 
-def metric(x, value, label, delay):
+def metric(x, value, label, delay, ink, muted):
     return f"""
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="{delay}s" fill="freeze"/>
-    <text x="{x}" y="112" font-family="{SERIF}" font-size="46" fill="{INK}">{value}</text>
-    <text x="{x}" y="136" font-family="{MONO}" font-size="10" letter-spacing="2.6" fill="{MUTED}">{label}</text>
+    <text x="{x}" y="112" font-family="{SERIF}" font-size="46" fill="{ink}">{value}</text>
+    <text x="{x}" y="136" font-family="{MONO}" font-size="10" letter-spacing="2.6" fill="{muted}">{label}</text>
   </g>"""
 
 
-def render(d):
+def render(d, theme):
+    bg, panel, rule = theme["bg"], theme["panel"], theme["rule"]
+    sand, mint, ink, muted = theme["sand"], theme["mint"], theme["ink"], theme["muted"]
+    ramp = theme["ramp"]
+
     stamp = datetime.now(timezone.utc).strftime("%d %b %Y")
 
     metrics = "".join([
-        metric(60, d["repos"], "PUBLIC REPOS", 0.2),
-        metric(340, d["stars"], "STARS EARNED", 0.35),
-        metric(620, d["contributions"], "CONTRIBUTIONS / YR", 0.5),
-        metric(960, d["followers"], "FOLLOWERS", 0.65),
+        metric(60, d["repos"], "PUBLIC REPOS", 0.2, ink, muted),
+        metric(340, d["stars"], "STARS EARNED", 0.35, ink, muted),
+        metric(620, d["contributions"], "CONTRIBUTIONS / YR", 0.5, ink, muted),
+        metric(960, d["followers"], "FOLLOWERS", 0.65, ink, muted),
     ])
 
     bar, legend, x, lx = [], [], 60.0, 60.0
     width = 1080.0
     for i, (name, pct) in enumerate(d["langs"]):
         seg = width * pct / 100
-        colour = RAMP[i % len(RAMP)]
+        colour = ramp[i % len(ramp)]
         bar.append(
             f'<rect x="{x:.1f}" y="186" width="0" height="10" rx="2" fill="{colour}">'
             f'<animate attributeName="width" from="0" to="{seg:.1f}" dur="1.1s" '
@@ -112,7 +125,7 @@ def render(d):
             f'begin="{1.2 + i * 0.1:.2f}s" fill="freeze"/>'
             f'<circle cx="{lx:.0f}" cy="228" r="4" fill="{colour}"/>'
             f'<text x="{lx + 14:.0f}" y="232" font-family="{MONO}" font-size="11.5" '
-            f'fill="{MUTED}">{escape(name)} {pct:.0f}%</text></g>'
+            f'fill="{muted}">{escape(name)} {pct:.0f}%</text></g>'
         )
         x += seg
         lx += 40 + len(name) * 7.5
@@ -120,17 +133,17 @@ def render(d):
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-label="GitHub statistics for {escape(LOGIN)}">
   <defs><clipPath id="p"><rect width="1200" height="260" rx="12" ry="12"/></clipPath></defs>
   <g clip-path="url(#p)">
-    <rect width="1200" height="260" fill="{BG}"/>
-    <rect width="1200" height="52" fill="{PANEL}"/>
-    <line x1="0" y1="52" x2="1200" y2="52" stroke="{RULE}" stroke-width="1"/>
-    <circle cx="34" cy="26" r="4" fill="{MINT}">
+    <rect width="1200" height="260" fill="{bg}"/>
+    <rect width="1200" height="52" fill="{panel}"/>
+    <line x1="0" y1="52" x2="1200" y2="52" stroke="{rule}" stroke-width="1"/>
+    <circle cx="34" cy="26" r="4" fill="{mint}">
       <animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/>
     </circle>
-    <text x="52" y="31" font-family="{MONO}" font-size="12" letter-spacing="2.6" fill="{SAND}">LIVE SIGNAL</text>
-    <text x="1140" y="31" text-anchor="end" font-family="{MONO}" font-size="11" fill="{MUTED}">synced {stamp}</text>
+    <text x="52" y="31" font-family="{MONO}" font-size="12" letter-spacing="2.6" fill="{sand}">LIVE SIGNAL</text>
+    <text x="1140" y="31" text-anchor="end" font-family="{MONO}" font-size="11" fill="{muted}">synced {stamp}</text>
 {metrics}
-    <text x="60" y="172" font-family="{MONO}" font-size="10" letter-spacing="2.6" fill="{SAND}">LANGUAGE DISTRIBUTION</text>
-    <rect x="60" y="186" width="1080" height="10" rx="2" fill="{RULE}" fill-opacity="0.5"/>
+    <text x="60" y="172" font-family="{MONO}" font-size="10" letter-spacing="2.6" fill="{sand}">LANGUAGE DISTRIBUTION</text>
+    <rect x="60" y="186" width="1080" height="10" rx="2" fill="{rule}" fill-opacity="0.5"/>
     {''.join(bar)}
     {''.join(legend)}
   </g>
@@ -141,7 +154,9 @@ def render(d):
 if __name__ == "__main__":
     data = summarise(fetch())
     os.makedirs("assets", exist_ok=True)
-    with open(OUT, "w", encoding="utf-8") as fh:
-        fh.write(render(data))
-    print(f"wrote {OUT}: {data['repos']} repos, {data['stars']} stars, "
+    for theme in THEMES.values():
+        with open(theme["out"], "w", encoding="utf-8") as fh:
+            fh.write(render(data, theme))
+        print(f"wrote {theme['out']}")
+    print(f"{data['repos']} repos, {data['stars']} stars, "
           f"{data['contributions']} contributions, {len(data['langs'])} languages")

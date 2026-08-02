@@ -1,48 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-label="Open to internships and collaboration — Quetta, Pakistan">
   <defs>
-    <clipPath id="fb"><rect width="1200" height="150" rx="12" ry="12"/></clipPath>
-    <path id="fsync" d="M872,74 Q918,56 962,84"/>
-    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7FD1C1" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#7FD1C1" stop-opacity="0.09"/>
+    <clipPath id="fbl"><rect width="1200" height="150" rx="12" ry="12"/></clipPath>
+    <path id="fsyncl" d="M872,74 Q918,56 962,84"/>
+    <linearGradient id="fadel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1F8B78" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#1F8B78" stop-opacity="0.07"/>
     </linearGradient>
   </defs>
 
-  <g clip-path="url(#fb)">
-    <rect width="1200" height="150" fill="#0B1519"/>
-    <rect width="1200" height="150" fill="url(#fade)"/>
+  <g clip-path="url(#fbl)">
+    <rect width="1200" height="150" fill="#FBFAF6"/>
+    <rect width="1200" height="150" fill="url(#fadel)"/>
 
-    <circle r="2.5" fill="#7FD1C1">
+    <circle r="2.5" fill="#1F8B78">
       <animateMotion dur="2.4s" repeatCount="indefinite">
-        <mpath href="#fsync" xlink:href="#fsync"/>
+        <mpath href="#fsyncl" xlink:href="#fsyncl"/>
       </animateMotion>
     </circle>
 
     <!-- laptop -->
-    <path d="M786,100 L946,100 L960,116 L772,116 Z" fill="#13242A" stroke="#24404A" stroke-width="1.2"/>
-    <rect x="796" y="38" width="150" height="64" rx="6" fill="#13242A" stroke="#E9B872" stroke-width="1.6"/>
-    <rect x="802" y="44" width="138" height="52" rx="3" fill="#0B1519"/>
-    <rect x="810" y="54" width="26" height="4" rx="1" fill="#E9B872" opacity="0">
+    <path d="M786,100 L946,100 L960,116 L772,116 Z" fill="#F1ECE1" stroke="#D9CFC0" stroke-width="1.2"/>
+    <rect x="796" y="38" width="150" height="64" rx="6" fill="#F1ECE1" stroke="#A8672A" stroke-width="1.6"/>
+    <rect x="802" y="44" width="138" height="52" rx="3" fill="#FBFAF6"/>
+    <rect x="810" y="54" width="26" height="4" rx="1" fill="#A8672A" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.3s" fill="freeze"/></rect>
-    <rect x="810" y="65" width="90" height="4" rx="1" fill="#7FD1C1" opacity="0">
+    <rect x="810" y="65" width="90" height="4" rx="1" fill="#1F8B78" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.42s" fill="freeze"/></rect>
-    <rect x="810" y="76" width="60" height="4" rx="1" fill="#E9B872" opacity="0">
+    <rect x="810" y="76" width="60" height="4" rx="1" fill="#A8672A" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.54s" fill="freeze"/></rect>
 
     <!-- phone -->
-    <rect x="963" y="46" width="58" height="102" rx="11" fill="#13242A" stroke="#E9B872" stroke-width="1.6"/>
-    <rect x="969" y="55" width="46" height="76" rx="5" fill="#0B1519"/>
-    <circle cx="992" cy="70" r="2.5" fill="#E9B872">
-      <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" begin="1s" repeatCount="indefinite"/>
+    <rect x="963" y="46" width="58" height="102" rx="11" fill="#F1ECE1" stroke="#A8672A" stroke-width="1.6"/>
+    <rect x="969" y="55" width="46" height="76" rx="5" fill="#FBFAF6"/>
+    <circle cx="992" cy="70" r="2.5" fill="#A8672A">
+      <animate attributeName="opacity" values="1;0.35;1" dur="1.8s" begin="1s" repeatCount="indefinite"/>
     </circle>
-    <rect x="976" y="88" width="28" height="4" rx="1" fill="#24404A" opacity="0">
+    <rect x="976" y="88" width="28" height="4" rx="1" fill="#D9CFC0" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="1.15s" fill="freeze"/></rect>
-    <rect x="976" y="98" width="20" height="4" rx="1" fill="#24404A" opacity="0">
+    <rect x="976" y="98" width="20" height="4" rx="1" fill="#D9CFC0" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="1.25s" fill="freeze"/></rect>
 
-    <text x="60" y="62" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#E6EEF0">Open to internships and side projects.</text>
-    <line x1="60" y1="82" x2="60" y2="82" stroke="#E9B872" stroke-width="2">
+    <text x="60" y="62" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#1B2621">Open to internships and side projects.</text>
+    <line x1="60" y1="82" x2="60" y2="82" stroke="#A8672A" stroke-width="2">
       <animate attributeName="x2" from="60" to="240" dur="1s" begin="0.2s" fill="freeze"/></line>
-    <text x="60" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" letter-spacing="1.6" fill="#7E9AA3">quetta · pakistan &#183; usually replying within a day</text>
+    <text x="60" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" letter-spacing="1.6" fill="#6E7C74">quetta · pakistan &#183; usually replying within a day</text>
   </g>
 </svg>

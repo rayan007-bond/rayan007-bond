@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Muhammad Rayan — software engineering student in Quetta, Pakistan">
+
+  <defs>
+    <clipPath id="card">
+      <rect x="0" y="0" width="1200" height="340" rx="12" ry="12"/>
+    </clipPath>
+
+    <radialGradient id="glow" cx="72%" cy="45%" r="55%">
+      <stop offset="0%"   stop-color="#7FD1C1" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#7FD1C1" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#24404A" fill-opacity="0.55"/>
+    </pattern>
+
+    <path id="syncPath" d="M818,150 Q905,118 984,176"/>
+  </defs>
+
+  <g clip-path="url(#card)">
+
+    <rect width="1200" height="340" fill="#0B1519"/>
+    <rect x="560" y="40" width="640" height="260" fill="url(#dots)"/>
+    <rect width="1200" height="340" fill="url(#glow)"/>
+
+    <!-- instrument frame -->
+    <g stroke="#24404A" stroke-width="1.5" fill="none">
+      <path d="M28,54 L28,28 L54,28"/>
+      <path d="M1146,28 L1172,28 L1172,54"/>
+      <path d="M28,286 L28,312 L54,312"/>
+      <path d="M1146,312 L1172,312 L1172,286"/>
+    </g>
+
+    <!-- ================= laptop + mobile ================= -->
+
+    <!-- sync packet travelling between the two screens -->
+    <circle r="3" fill="#7FD1C1">
+      <animateMotion dur="2.6s" repeatCount="indefinite">
+        <mpath href="#syncPath" xlink:href="#syncPath"/>
+      </animateMotion>
+    </circle>
+
+    <!-- laptop -->
+    <g>
+      <path d="M665,272 L955,272 L978,298 L642,298 Z" fill="#13242A" stroke="#24404A" stroke-width="1.5"/>
+      <rect x="790" y="286" width="50" height="6" rx="3" fill="#24404A"/>
+
+      <rect x="680" y="90" width="260" height="182" rx="10" fill="#13242A" stroke="#E9B872" stroke-width="2"/>
+      <rect x="688" y="98" width="244" height="166" rx="4" fill="#0B1519"/>
+
+      <circle cx="810" cy="104" r="2" fill="none" stroke="#24404A" stroke-width="1"/>
+
+      <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5">
+        <rect x="702" y="118" width="46" height="6" rx="1.5" fill="#E9B872" opacity="0">
+          <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.5s" fill="freeze"/></rect>
+        <rect x="702" y="140" width="168" height="6" rx="1.5" fill="#7FD1C1" opacity="0">
+          <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.65s" fill="freeze"/></rect>
+        <rect x="702" y="162" width="38" height="6" rx="1.5" fill="#E9B872" opacity="0">
+          <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.8s" fill="freeze"/></rect>
+        <rect x="702" y="184" width="196" height="6" rx="1.5" fill="#7FD1C1" opacity="0">
+          <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.95s" fill="freeze"/></rect>
+        <rect x="702" y="206" width="62" height="6" rx="1.5" fill="#E9B872" opacity="0">
+          <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.1s" fill="freeze"/></rect>
+        <rect x="702" y="228" width="140" height="6" rx="1.5" fill="#7FD1C1" opacity="0">
+          <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.25s" fill="freeze"/></rect>
+
+        <rect x="850" y="228" width="8" height="7" fill="#E9B872" opacity="0">
+          <animate attributeName="opacity" values="0;0;1;0;1;0;1;0" dur="1.2s" begin="1.4s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+
+    <!-- phone -->
+    <g>
+      <rect x="985" y="112" width="98" height="188" rx="18" fill="#13242A" stroke="#E9B872" stroke-width="2"/>
+      <rect x="993" y="124" width="82" height="154" rx="8" fill="#0B1519"/>
+      <rect x="1022" y="118" width="18" height="3" rx="1.5" fill="#24404A"/>
+      <rect x="1024" y="288" width="16" height="3" rx="1.5" fill="#24404A"/>
+
+      <!-- signal bars -->
+      <g fill="#7FD1C1">
+        <rect x="1052" y="136" width="3" height="5">
+          <animate attributeName="opacity" values="0.25;1;0.25" dur="2.4s" begin="0.2s" repeatCount="indefinite"/></rect>
+        <rect x="1058" y="132" width="3" height="9">
+          <animate attributeName="opacity" values="0.25;1;0.25" dur="2.4s" begin="0.5s" repeatCount="indefinite"/></rect>
+        <rect x="1064" y="128" width="3" height="13">
+          <animate attributeName="opacity" values="0.25;1;0.25" dur="2.4s" begin="0.8s" repeatCount="indefinite"/></rect>
+      </g>
+
+      <circle cx="1034" cy="150" r="3.5" fill="#E9B872">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" begin="1.6s" repeatCount="indefinite"/>
+      </circle>
+      <rect x="1050" y="146" width="24" height="6" rx="1.5" fill="#E6EEF0" opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.6s" fill="freeze"/></rect>
+
+      <rect x="1008" y="176" width="52" height="5" rx="1.5" fill="#24404A" opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.75s" fill="freeze"/></rect>
+      <rect x="1008" y="192" width="38" height="5" rx="1.5" fill="#24404A" opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.85s" fill="freeze"/></rect>
+      <rect x="1008" y="208" width="46" height="5" rx="1.5" fill="#24404A" opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.95s" fill="freeze"/></rect>
+    </g>
+
+    <!-- ================= identity block ================= -->
+    <text x="60" y="130"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="11" letter-spacing="4.5" fill="#7E9AA3">QUETTA · PAKISTAN</text>
+
+    <text x="60" y="192" font-family="Georgia, 'Times New Roman', serif"
+          font-size="56" fill="#E6EEF0">Muhammad <tspan fill="#E9B872">Rayan</tspan></text>
+
+    <line x1="60" y1="216" x2="60" y2="216" stroke="#E9B872" stroke-width="2">
+      <animate attributeName="x2" from="60" to="300" dur="1.2s" begin="0.3s" fill="freeze"/>
+    </line>
+
+    <text x="60" y="252"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="13.5" letter-spacing="1.2" fill="#7E9AA3">software engineering student</text>
+
+    <text x="60" y="276"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="13.5" letter-spacing="1.2" fill="#7E9AA3">networks · data · automation</text>
+
+    <rect x="336" y="264" width="9" height="15" fill="#E9B872">
+      <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+
+  </g>
+</svg>
